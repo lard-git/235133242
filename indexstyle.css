@@ -1,3 +1,36 @@
-body{
+@font-face {
+    font-family: 'Personafont';
+    src: url(assests/chiarostd_b.otf) format('opentype');
+}
+
+
+Body{
     background-image: url('assests/mainbg.jpg');
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+
+h1{
+    align-self: start;
+    color: azure;
+    font-size: 270%;
+    text-shadow: 5px 5px 0px rgb(0, 0, 0) ;
+    margin-left: 80px;
+}
+
+.Mainbox{
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.63);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.pfp{
+    align-self: start;
+    height: 250px;
+    border-radius: 200px;
+    border: 5px solid black;   
+    margin-left: 100px;
 }
