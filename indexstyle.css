@@ -10,12 +10,24 @@ Body{
     background-repeat: no-repeat;
 }
 
+.pfpcontainer{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
 h1{
-    align-self: start;
+    align-self: center;
     color: azure;
     font-size: 270%;
     text-shadow: 5px 5px 0px rgb(0, 0, 0) ;
     margin-left: 80px;
+}
+
+h2{
+    color: azure;
+    font-size: 200%;
+    margin-bottom: 100px;
 }
 
 .Mainbox{
@@ -34,3 +46,64 @@ h1{
     border: 5px solid black;   
     margin-left: 100px;
 }
+
+.stars{
+    display: flex;
+    gap: 200px;
+}
+
+.S1{
+    height: 250px;
+    transform: rotate(15deg);
+    transition: transform 1s ease;
+}
+
+.S2{
+    height: 250px;
+    transform: rotate(-15deg);
+    transition: transform 1s ease;
+}
+
+.S1:hover{
+    transform: rotate(-15deg);
+    transform: scale(1.2);
+}
+.S2:hover{
+    transform: rotate(15deg);
+    transform: scale(1.2);
+}
+
+.title{
+    margin-top: 20px;
+    display: flex;
+    gap: 220px;
+    color: azure;
+    font-size: 200%;
+
+}
+
+.marquee{
+    color: azure;
+    font-weight: bolder;
+    font-size: 120%;
+}
+
+.marquee span {
+    display: inline;
+    white-space: nowrap;
+    display: inline-block; 
+    animation: marquee 70s linear infinite; 
+    width: 50%;
+    letter-spacing: 10px;
+    text-align: justify;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(200%);
+    }
+    100% {
+      transform: translateX(-200%);
+    }
+  }
+
