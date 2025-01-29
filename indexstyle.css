@@ -6,8 +6,9 @@
 
 Body{
     background-image: url('assests/mainbg.jpg');
-    background-size: 100vw;
+    background-size: 100vw 150vh;
     background-repeat: no-repeat;
+    font-family: Personafont, sans-serif;
 }
 
 .pfpcontainer{

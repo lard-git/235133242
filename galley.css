@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Personafont';
+    src: url(assests/chiarostd_b.otf) format('opentype');
+}
+
+
+body{
+    background-image: linear-gradient(to right, rgba(0, 0, 0), rgba(0, 0, 0, 0.7));
+    background-size: 100% 200%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: Personafont, sans-serif ;
+}
+
+#background-container{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.pics{
+    display: flex;
+    height: 100px;
+    z-index: 1;
+    gap: 10px;
+    
+}
+
+.a{
+    transition: transform 0.2s ease-in-out;
+}
+.a:hover{
+    transform: scale(1.2);
+}
+
+h1{
+    color: azure;
+}
+
+.home{
+    height: 250px;
+    transform: rotate(15deg);
+    transition: transform 1s ease;
+}
+
+.home:hover{
+    transform: rotate(-15deg);
+    transform: scale(1.2);
+}
+
+h2{
+    color: azure;
+    margin-left:57px ;
+    margin-top: -20px;
+}
+
