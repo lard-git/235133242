@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Personafont';
+    src: url(assests/chiarostd_b.otf) format('opentype');
+}
+
+body{
+    overflow-x: hidden;
+    font-family: Personafont, sans-serif;
+    background-image: linear-gradient(to bottom, rgba(82,255,253,255), rgba(2,1,167,255));
+    background-repeat: no-repeat;
+    height: fill;
+    
+}
+
+.Mainbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.ichi, .ni, .san{
+    color:azure;
+}
+
+.pfp{
+    height: 200px;
+    border-radius: 200px;
+    border: 5px solid azure;
+}
+
+
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
+
+.sakura, .s2, .s3{
+    height: 300px;
+    animation: spin 10s linear infinite;
+}
+
+.second{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.back, .yuki{
+    height: 200px;
+    border-radius: 200px;
+    border: 5px solid azure;
+}
+
+.thrid{
+    display: flex;
+    flex-direction: row;
+    gap: 400px;
+}
+
+.fourth{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.quote{
+    height: 300px;
+}
+
+.s1{
+    height: 250px;
+    transform: rotate(15deg);
+    transition: transform 1s ease;
+}
+
+.s1:hover{
+    transform: rotate(-15deg);
+    transform: scale(1.2);
+}
+
+h2{
+    color: azure;
+}
+
+
+
