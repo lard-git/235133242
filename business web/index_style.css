@@ -3,6 +3,11 @@
     src: url(assets/Persona5main.ttf) format('opentype');
 }
 
+@font-face {
+    font-family: 'persona2';
+    src: url(assets/chiarostd_b.otf) format('opentype');
+}
+
 body{
     font-family: personafont, sans-serif;
     display: flex;
@@ -73,3 +78,86 @@ a{
     background-color: red;
     scale: 1.2;
 }
+
+.tanakers{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    
+}
+.tanaking{
+    height: 400px;
+    filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 1));
+}
+
+.about1{
+    font-family: persona2, sans-serif;
+    font-weight: 10000;
+    background: linear-gradient( rgba(167, 0, 0, 0.80), rgba(167, 0, 0, 0.80));
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+.star{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
+
+.s1{
+    height: 200px;
+    animation: spin 10s linear infinite;
+}
+
+.dialog{
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.d1{
+    filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 1));
+    rotate: -5deg;
+    height: 200px;
+}
+
+.d2, .d3{
+    font-weight: 10000;
+    color: azure;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    margin-top: 70px;
+    gap: 10px;
+    transition: ease-in-out 1s;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+.i1:hover, .i2:hover, .i3:hover{
+    scale: 1.2;
+    animation: shake 0.5s ease-in-out;
+}
+
+
+
+
