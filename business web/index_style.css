@@ -12,7 +12,7 @@ body{
     font-family: personafont, sans-serif;
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(to bottom, rgb(70, 70, 70),black);
+    background-image: linear-gradient(to bottom, rgb(54, 54, 54),black);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -25,6 +25,9 @@ body{
     gap: 1px;
     background-color: rgb(167, 0, 0);
     border: 5px solid black;
+    position: fixed;
+    width: 99%;
+    z-index: 100;
 }
 
 .tanaka1{
@@ -165,6 +168,41 @@ a{
     align-items: center;
 }
 
+.Scontain{
+    background: linear-gradient(to bottom ,rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.945) ), url(assets/bg.png) no-repeat center / cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.t3{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.tanakest{
+    height: 350px;
+}
 
 
+.t4{
+    rotate: -20deg;
+    height: 300px;
+}
 
+.Scontents{
+    align-items: center;
+    font-family: persona2, sans-serif;
+    color: azure;
+}
+
+.basetanaka{
+    height: 300px;
+}
+
+.base{
+    display: flex;
+    flex-direction: column-reverse;
+}
