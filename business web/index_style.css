@@ -81,13 +81,14 @@ a{
 
 .tanakers{
     display: flex;
-    align-items: flex-start;
     flex-direction: row;
+    flex-wrap: wrap;
     
 }
 .tanaking{
-    height: 400px;
+    height: 300px;
     filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 1));
+
 }
 
 .about1{
@@ -100,6 +101,7 @@ a{
 
 .star{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content:space-between;
     
@@ -121,8 +123,7 @@ a{
 }
 
 .dialog{
-    align-items: center;
-    justify-content: space-between;
+    justify-content: right;
     
 }
 
@@ -156,6 +157,12 @@ a{
 .i1:hover, .i2:hover, .i3:hover{
     scale: 1.2;
     animation: shake 0.5s ease-in-out;
+}
+
+.ad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
