@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'personafont';
+    src: url(assets/Persona5main.ttf) format('opentype');
+}
+
+body{
+    font-family: personafont, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, rgb(255, 0, 0),black);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1px;
+    background-color: red;
+    border: 5px solid black;
+}
+
+.tanaka1{
+    height: 80px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+#home{
+    display: flex;
+
+}
