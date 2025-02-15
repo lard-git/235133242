@@ -29,6 +29,14 @@ body{
     width: 99%;
     z-index: 100;
 }
+.h , .a, .s {
+    transition: ease-in-out .5s;
+}
+
+.h:hover, .a:hover, .s:hover{
+    color: white;
+    scale: 1.1;
+}
 
 .tanaka1{
     height: 80px;
@@ -82,4 +90,15 @@ a{
 
 .c1 , .c2, .c3 ,.c4{
     font-size: 125%;
+}
+
+.fcontain{
+    
+    background: linear-gradient( rgba(167, 0, 0, 0.80), rgba(29, 1, 1, 0.8));
+    text-align: center;
+    padding: 3px;
+}
+
+.ooo{
+    font-size: 130%;
 }
