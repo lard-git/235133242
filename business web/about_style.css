@@ -53,9 +53,10 @@ a{
 }
 
 .about1{
+    margin-top: 80px;
     font-family: persona2, sans-serif;
     font-weight: 10000;
-    background: linear-gradient( rgba(167, 0, 0, 0.80), rgba(167, 0, 0, 0.80));
+    background: linear-gradient( rgba(167, 0, 0, 0.80), rgba(29, 1, 1, 0.8));
     border: 5px solid black;
     border-radius: 15px;
 }
@@ -121,9 +122,11 @@ a{
 }
 
 .ad{
+    margin-top: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
+    filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 1));
 }
 
 
